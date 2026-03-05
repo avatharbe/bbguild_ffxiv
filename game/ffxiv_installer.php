@@ -142,10 +142,16 @@ class ffxiv_installer extends abstract_game_install
 		$sql_ary = array();
 		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 1, 'race_faction_id' => 3, 'image_female' => '',                      'image_male' => '');
 		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 2, 'race_faction_id' => 1, 'image_female' => 'ffxiv_roegadyn_female', 'image_male' => 'ffxiv_roegadyn_male');
-		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 3, 'race_faction_id' => 3, 'image_female' => 'ffxiv_hyur_female',     'image_male' => 'ffxiv_hyur_female');
+		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 3, 'race_faction_id' => 3, 'image_female' => 'ffxiv_hyur_female',     'image_male' => 'ffxiv_hyur_male');
 		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 4, 'race_faction_id' => 2, 'image_female' => 'ffxiv_elezen_female',   'image_male' => 'ffxiv_elezen_male');
 		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 5, 'race_faction_id' => 2, 'image_female' => 'ffxiv_lalafell_female', 'image_male' => 'ffxiv_lalafell_male');
 		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 6, 'race_faction_id' => 3, 'image_female' => 'ffxiv_miqote_female',   'image_male' => 'ffxiv_miqote_male');
+		// Au Ra
+		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 7, 'race_faction_id' => 3, 'image_female' => 'ffxiv_aura_female',     'image_male' => 'ffxiv_aura_male');
+		// Hrothgar
+		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 8, 'race_faction_id' => 3, 'image_female' => 'ffxiv_hrothgar_female', 'image_male' => 'ffxiv_hrothgar_male');
+		// Viera
+		$sql_ary[] = array('game_id' => $this->game_id, 'race_id' => 9, 'race_faction_id' => 3, 'image_female' => 'ffxiv_viera_female',    'image_male' => 'ffxiv_viera_male');
 		$db->sql_multi_insert($this->table('bb_races_table'), $sql_ary);
 		unset($sql_ary);
 
@@ -162,6 +168,9 @@ class ffxiv_installer extends abstract_game_install
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 4, 'language' => 'en', 'attribute' => 'race', 'name' => 'Elezen',    'name_short' => 'Elezen');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 5, 'language' => 'en', 'attribute' => 'race', 'name' => 'Lalafell',  'name_short' => 'Lalafell');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 6, 'language' => 'en', 'attribute' => 'race', 'name' => $miqote,     'name_short' => $miqote);
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 7, 'language' => 'en', 'attribute' => 'race', 'name' => 'Au Ra',      'name_short' => 'Au Ra');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 8, 'language' => 'en', 'attribute' => 'race', 'name' => 'Hrothgar',   'name_short' => 'Hrothgar');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 9, 'language' => 'en', 'attribute' => 'race', 'name' => 'Viera',      'name_short' => 'Viera');
 
 		// fr
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 1, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Unknown',   'name_short' => 'Unknown');
@@ -170,6 +179,9 @@ class ffxiv_installer extends abstract_game_install
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 4, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Elezen',    'name_short' => 'Elezen');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 5, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Lalafell',  'name_short' => 'Lalafell');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 6, 'language' => 'fr', 'attribute' => 'race', 'name' => $miqote,     'name_short' => $miqote);
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 7, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Ao Ra',       'name_short' => 'Ao Ra');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 8, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Hrothgar',    'name_short' => 'Hrothgar');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 9, 'language' => 'fr', 'attribute' => 'race', 'name' => 'Viéra',       'name_short' => 'Viéra');
 
 		// de
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 1, 'language' => 'de', 'attribute' => 'race', 'name' => 'Unknown',   'name_short' => 'Unknown');
@@ -178,6 +190,9 @@ class ffxiv_installer extends abstract_game_install
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 4, 'language' => 'de', 'attribute' => 'race', 'name' => 'Elezen',    'name_short' => 'Elezen');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 5, 'language' => 'de', 'attribute' => 'race', 'name' => 'Lalafell',  'name_short' => 'Lalafell');
 		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 6, 'language' => 'de', 'attribute' => 'race', 'name' => $miqote,     'name_short' => $miqote);
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 7, 'language' => 'de', 'attribute' => 'race', 'name' => 'Au Ra',       'name_short' => 'Au Ra');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 8, 'language' => 'de', 'attribute' => 'race', 'name' => 'Hrothgar',    'name_short' => 'Hrothgar');
+		$sql_ary[] = array('game_id' => $this->game_id, 'attribute_id' => 9, 'language' => 'de', 'attribute' => 'race', 'name' => 'Viera',       'name_short' => 'Viera');
 
 		$db->sql_multi_insert($this->table('bb_language_table'), $sql_ary);
 	}
