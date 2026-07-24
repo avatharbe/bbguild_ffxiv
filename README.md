@@ -1,7 +1,7 @@
 # bbGuild - Final Fantasy XIV
 [![Tests](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml)
 
-Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/avatharbe/bbguild).
+Final Fantasy XIV doesn't even call them guilds — they're Free Companies — and Savage/Ultimate raiding culture runs on tightly coordinated static groups where knowing who plays what matters. bbguildffxiv covers 16 base classes and jobs and 8 races (Au Ra, Hrothgar, and Viera), plus the three Grand Companies and boss/zone links to the official Lodestone. It's built to give your static and your FC roster a proper home on the forum, not just a pinned post nobody updates. Job data currently covers A Realm Reborn — Heavensward-and-later jobs like Dark Knight and Astrologian are planned for a future update.
 
 ## Features
 
