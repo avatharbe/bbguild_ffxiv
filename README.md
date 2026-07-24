@@ -1,12 +1,12 @@
 # bbGuild - Final Fantasy XIV
 [![Tests](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml)
 
-Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/avandenberghe/bbguild).
+Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/avatharbe/bbguild).
 
 ## Features
 
 - **FFXIV Classes & Jobs** - 16 base classes and jobs (Archer, Bard, Gladiator, Paladin, Lancer, Dragoon, Marauder, Warrior, Pugilist, Monk, Conjurer, White Mage, Thaumaturge, Black Mage, Arcanist, Summoner, Scholar)
-- **FFXIV Races** - 5 playable races (Hyur, Elezen, Lalafell, Miqo'te, Roegadyn)
+- **FFXIV Races** - 8 playable races (Hyur, Elezen, Lalafell, Miqo'te, Roegadyn, Au Ra, Hrothgar, Viera)
 - **Grand Companies** - The Maelstrom, The Order of the Twin Adder, The Immortal Flames
 - **Localization** - Class and race names in English, French, and German
 - **Lodestone Links** - Boss and zone database URLs linked to the official FFXIV Lodestone
@@ -14,7 +14,7 @@ Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/
 ## Requirements
 
 - phpBB >= 3.3.0
-- PHP >= 7.4.0
+- PHP >= 8.1.0
 - **bbGuild core** (`avathar/bbguild`) must be installed and enabled
 
 ## Installation
@@ -65,14 +65,17 @@ Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/
 | 4 | Elezen | Twin Adder |
 | 5 | Lalafell | Twin Adder |
 | 6 | Miqo'te | Neutral |
+| 7 | Au Ra | Neutral |
+| 8 | Hrothgar | Neutral |
+| 9 | Viera | Neutral |
 
 ### Known Limitations
 
-This data set covers **A Realm Reborn** (base game). The following content from later expansions is not yet included:
+This data set covers classes/jobs through **A Realm Reborn** (base game); races are up to date through **Shadowbringers**. The following content from later expansions is not yet included:
 
-- **Heavensward** - Au Ra race, Dark Knight, Astrologian, Machinist
+- **Heavensward** - Dark Knight, Astrologian, Machinist
 - **Stormblood** - Red Mage, Samurai
-- **Shadowbringers** - Viera and Hrothgar races, Gunbreaker, Dancer
+- **Shadowbringers** - Gunbreaker, Dancer
 - **Endwalker** - Sage, Reaper
 - **Dawntrail** - Viper, Pictomancer, Female Hrothgar
 
@@ -84,6 +87,6 @@ These will be added in future updates.
 
 ## Links
 
-- [bbGuild Core](https://github.com/avandenberghe/bbguild)
+- [bbGuild Core](https://github.com/avatharbe/bbguild)
 - [FFXIV Lodestone](https://na.finalfantasyxiv.com/lodestone/)
-- [Issue Tracker](https://github.com/avandenberghe/bbguild/issues)
+- [Issue Tracker](https://github.com/avatharbe/bbguildffxiv/issues)
