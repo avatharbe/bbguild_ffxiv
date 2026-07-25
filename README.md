@@ -4,11 +4,11 @@
 
 [![Tests](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml)
 
-Final Fantasy XIV doesn't even call them guilds — they're Free Companies — and Savage/Ultimate raiding culture runs on tightly coordinated static groups where knowing who plays what matters. bbguildffxiv covers 16 base classes and jobs and 8 races (Au Ra, Hrothgar, and Viera), plus the three Grand Companies and boss/zone links to the official Lodestone. It's built to give your static and your FC roster a proper home on the forum, not just a pinned post nobody updates. Job data currently covers A Realm Reborn — Heavensward-and-later jobs like Dark Knight and Astrologian are planned for a future update.
+Final Fantasy XIV doesn't even call them guilds — they're Free Companies — and Savage/Ultimate raiding culture runs on tightly coordinated static groups where knowing who plays what matters. bbguildffxiv covers all 27 classes and jobs — from the A Realm Reborn base classes through every expansion job up to Dawntrail (Viper and Pictomancer) — and all 8 races (Au Ra, Hrothgar, and Viera), plus the three Grand Companies and boss/zone links to the official Lodestone. It's built to give your static and your FC roster a proper home on the forum, not just a pinned post nobody updates.
 
 ## Features
 
-- **FFXIV Classes & Jobs** - 16 base classes and jobs (Archer, Bard, Gladiator, Paladin, Lancer, Dragoon, Marauder, Warrior, Pugilist, Monk, Conjurer, White Mage, Thaumaturge, Black Mage, Arcanist, Summoner, Scholar)
+- **FFXIV Classes & Jobs** - 27 classes and jobs spanning A Realm Reborn through Dawntrail (the ARR base classes and their jobs, plus every job-only class: Dark Knight, Astrologian, Machinist, Red Mage, Samurai, Gunbreaker, Dancer, Sage, Reaper, Viper, Pictomancer)
 - **FFXIV Races** - 8 playable races (Hyur, Elezen, Lalafell, Miqo'te, Roegadyn, Au Ra, Hrothgar, Viera)
 - **Grand Companies** - The Maelstrom, The Order of the Twin Adder, The Immortal Flames
 - **Localization** - Class and race names in English, French, and German
@@ -58,6 +58,17 @@ Final Fantasy XIV doesn't even call them guilds — they're Free Companies — a
 | 14 | Arcanist | Cloth | - |
 | 15 | Summoner | Cloth | Arcanist |
 | 16 | Scholar | Cloth | Arcanist |
+| 17 | Dark Knight | Plate | - |
+| 18 | Astrologian | Cloth | - |
+| 19 | Machinist | Leather | - |
+| 20 | Red Mage | Cloth | - |
+| 21 | Samurai | Leather | - |
+| 22 | Gunbreaker | Plate | - |
+| 23 | Dancer | Leather | - |
+| 24 | Sage | Cloth | - |
+| 25 | Reaper | Leather | - |
+| 26 | Viper | Leather | - |
+| 27 | Pictomancer | Cloth | - |
 
 ### Races
 
@@ -71,18 +82,6 @@ Final Fantasy XIV doesn't even call them guilds — they're Free Companies — a
 | 7 | Au Ra | Neutral |
 | 8 | Hrothgar | Neutral |
 | 9 | Viera | Neutral |
-
-### Known Limitations
-
-This data set covers classes/jobs through **A Realm Reborn** (base game); races are up to date through **Shadowbringers**. The following content from later expansions is not yet included:
-
-- **Heavensward** - Dark Knight, Astrologian, Machinist
-- **Stormblood** - Red Mage, Samurai
-- **Shadowbringers** - Gunbreaker, Dancer
-- **Endwalker** - Sage, Reaper
-- **Dawntrail** - Viper, Pictomancer, Female Hrothgar
-
-These will be added in future updates.
 
 ## License
 
