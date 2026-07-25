@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0-rc2 25/07/2026
+  - [NEW] Added all 11 post-A-Realm-Reborn jobs (Heavensward through Dawntrail): Dark Knight, Astrologian, Machinist, Red Mage, Samurai, Gunbreaker, Dancer, Sage, Reaper, Viper, Pictomancer — with en/fr/de names.
+  - [CHG] Bumped every job's level cap 50 → 100 (current Dawntrail cap).
+  - [DOCS] Updated the class table and removed the obsolete "Known Limitations" section (races and Grand Companies were already complete). (#2)
+
 ## 2.0.0-rc1 24/07/2026
   - [FIX] Migration dependency pointed at a since-removed bbguild core migration path (`basics\schema`, squashed into `v200b3` in an earlier core release) — this plugin could not install at all against current core
   - [FIX] `get_table_names()` was missing `bb_specializations_table`, which would have silently blocked any future specialization seeding (issue #331 Phase 4)
